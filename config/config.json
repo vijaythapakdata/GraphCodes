@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-allusers-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getAllusers/GetAllusersWebPart.js",
+          "manifest": "./src/webparts/getAllusers/GetAllusersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetAllusersWebPartStrings": "lib/webparts/getAllusers/loc/{locale}.js"
+  }
+}
